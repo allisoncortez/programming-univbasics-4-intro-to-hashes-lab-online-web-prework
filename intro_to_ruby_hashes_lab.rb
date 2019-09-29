@@ -36,6 +36,5 @@ else
  hash[key] = 1
 end
 end
-hash[key]
-
+hash[key] = value
 end
