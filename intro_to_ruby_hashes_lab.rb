@@ -32,6 +32,6 @@ else
  hash[key] = 1
 end
 #{key => hash}
-{ hash => key }
+update_counting_hash = { hash => key }
 
 end
