@@ -31,7 +31,6 @@ def update_counting_hash(hash, key)
 else
  hash[key] = 1
 end
-#{key => hash}
-update_counting_hash = { :count => 6 }
+update_counting_hash = { key => hash }
 
 end
